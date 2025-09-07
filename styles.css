@@ -1,0 +1,139 @@
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #c0e2c3;
+    padding: 030px 30px;
+    box-shadow: 0 11px 9px rgba(29, 21, 21, 0.1);
+    z-index: 1000;
+    
+}
+.fixed-header img {
+  float: left;
+  width: 110px;
+  height: 110px;
+  
+  background-color: #efe9ef;
+  border-radius: 0%;
+}
+
+.fixed-header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+  font-weight: 500;
+  background:linear-gradient(to right, #bc50a8, #c69e25) ;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.fixed-header h2 {
+    position: relative;
+    top: -2px;
+    left: 260px;
+    font-size: small;
+    font-style:italic;
+    animation: blink 2s infinite;
+    
+}
+@keyframes blink {
+  0% { opacity: 1; }   
+  50% { opacity: 0.5; }  
+  100% { opacity: 1; } 
+}
+
+body {
+    margin-top: 250px; 
+}
+
+.menuhead{
+  text-align: center;
+  font-size: 45PX;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background:linear-gradient(to right, #833a7a, #d4bb17) ;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.itembox {
+  
+  border: 2px solid #333;
+  padding: 80px; 
+  margin: 50px; 
+  width: 230px; 
+  box-shadow: 5px 5px 20px rgba(6, 6, 6, 0.2); 
+  border-radius: 25px;
+  background:linear-gradient(to right, #eae6e9, #ebded4) ;
+
+}
+
+.itembox:hover {
+  background:linear-gradient(to right, #cf7fbb, #d77428) ;
+  color : rgb(8, 0, 0); 
+  transform: scale(1.04); 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s ease-in-out;
+  
+
+}
+
+
+.itemboxhead{
+  display: flex;
+  flex-direction: row;
+}
+hr {
+  border: none; 
+  border-top: 2px solid black; 
+  width: 100%; 
+  margin: 26px auto; 
+}
+.price{
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 10px;
+    font-weight: bold;
+    color:brown;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.itemhead h3{
+  margin-left: -0px;
+  margin-top: -30px;
+  font-size: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background:linear-gradient(to right, #6f0563, #31148b) ;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menugrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 25px;
+    padding: 0px 20px;
+}
+
+.itemdes{
+  font-size: 18px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.connectus{
+  background: linear-gradient(135deg, #252025 0%, #864f4f 100%);
+    color: white;
+    text-align: center;
+    padding: 35px;
+    margin-top: 160px;
+}
+
+.ourmenu {
+  position: relative;
+  text-align: center;
+  font-size: 55px;
+  background:linear-gradient(to right, #872bae, #311601) ;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
