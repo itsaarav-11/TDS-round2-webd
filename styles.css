@@ -127,7 +127,30 @@ hr {
     text-align: center;
     padding: 35px;
     margin-top: 160px;
+    
 }
+.connectus h4{
+  background:#c0e2c3;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 15px;
+
+}
+.links{
+  display: flex;
+  flex-direction: row;
+    margin-left: 590px;
+
+}
+.ins{
+  margin-right: 40px;
+  
+}
+.yt{
+    margin-right: 40px;
+
+}
+
 
 .ourmenu {
   position: relative;
